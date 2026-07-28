@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Numerical results for curve fitting. CPU times are the mean $\pm$ sample standard deviation over five runs.}
+\label{tab:curve_results_cpu_sd}
+\begin{tabular}{llccc}
+\hline
+Method & Metric & $(15001,3001)$ & $(10001,2001)$ & $(1000,288)$ \\
+\hline
+LSPIA & $E_\infty$ & 9.34e-07 & 9.65e-07 & 9.89e-07 \\
+ & IT & 77 & 77 & 180 \\
+ & CPU (s) & $3.6011 \pm 0.0761$ & $1.5080 \pm 0.0112$ & $0.0083 \pm 0.0013$ \\
+ALSPIA & $E_\infty$ & 9.42e-07 & 6.29e-07 & 9.98e-07 \\
+ & IT & 6 & 7 & 125 \\
+ & CPU (s) & $0.2657 \pm 0.0034$ & $0.1289 \pm 0.0044$ & $0.0061 \pm 0.0009$ \\
+MLSPIA & $E_\infty$ & 7.34e-07 & 7.74e-07 & 8.15e-07 \\
+ & IT & 25 & 25 & 41 \\
+ & CPU (s) & $1.6999 \pm 0.0048$ & $0.7373 \pm 0.0159$ & $0.0035 \pm 0.0003$ \\
+NmLSPIA & $E_\infty$ & 9.74e-07 & 3.60e-07 & 9.41e-07 \\
+ & IT & 5 & 6 & 31 \\
+ & CPU (s) & $0.4478 \pm 0.0074$ & $0.2312 \pm 0.0045$ & $0.0037 \pm 0.0005$ \\
+SaLSPIA & $E_\infty$ & 8.16e-07 & 9.15e-07 & 9.00e-07 \\
+ & IT & 4 & 4 & 22 \\
+ & CPU (s) & $0.2113 \pm 0.0041$ & $0.0901 \pm 0.0025$ & $0.0023 \pm 0.0004$ \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,10 @@
+Example,DataPoints,ControlPoints,Rank,Method,Mode,E_inf,IT,Halvings
+Curve Ex.~4.2,10001,2001,2001,Long endpoint alpha^(1),bb1,8.37507130253156e-07,4,0
+Curve Ex.~4.2,10001,2001,2001,Short endpoint alpha^(2),bb2,2.47927804626126e-07,5,0
+Curve Ex.~4.2,10001,2001,2001,SaLSPIA,salspia,9.15484523448529e-07,4,0
+Curve Ex.~4.3,1000,288,288,Long endpoint alpha^(1),bb1,7.75569216526866e-07,24,0
+Curve Ex.~4.3,1000,288,288,Short endpoint alpha^(2),bb2,9.36985297416818e-07,22,0
+Curve Ex.~4.3,1000,288,288,SaLSPIA,salspia,9.00489789101423e-07,22,1
+Curve Ex.~4.7,206,101,90,Long endpoint alpha^(1),bb1,4.23809681451541e-07,21,2
+Curve Ex.~4.7,206,101,90,Short endpoint alpha^(2),bb2,9.4508074743504e-07,19,0
+Curve Ex.~4.7,206,101,90,SaLSPIA,salspia,9.42337778346321e-07,17,0

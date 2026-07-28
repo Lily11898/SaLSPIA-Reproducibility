@@ -1,0 +1,4 @@
+Method,Mode,IT,Halvings,E_final,Status
+Long endpoint $\alpha_k^{(1)}$,bb1,21,2,4.23809681451541e-07,converged
+Short endpoint $\alpha_k^{(2)}$,bb2,19,0,9.4508074743504e-07,converged
+SaLSPIA,salspia,17,0,9.42337778346311e-07,converged

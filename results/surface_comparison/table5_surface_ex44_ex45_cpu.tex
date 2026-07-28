@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Numerical results for surface fitting in Examples~4.4--4.5. CPU times are the mean $\pm$ sample standard deviation over five runs.}
+\label{tab:surface_results_cpu_sd_part1}
+\begin{tabular}{llcc}
+\hline
+Method & Metric & $(81,81,31,31)$ & $(121,121,41,41)$ \\
+\hline
+LSPIA & $E_\infty$ & 9.76e-07 & 9.94e-07 \\
+ & IT & 213 & 1091 \\
+ & CPU (s) & $0.0601 \pm 0.0026$ & $0.5386 \pm 0.0202$ \\
+ALSPIA & $E_\infty$ & 9.19e-07 & 8.70e-07 \\
+ & IT & 37 & 15 \\
+ & CPU (s) & $0.0099 \pm 0.0004$ & $0.0089 \pm 0.0019$ \\
+MLSPIA & $E_\infty$ & 6.92e-07 & 8.39e-07 \\
+ & IT & 82 & 109 \\
+ & CPU (s) & $0.0149 \pm 0.0007$ & $0.0366 \pm 0.0022$ \\
+NmLSPIA & $E_\infty$ & 8.66e-07 & 8.72e-07 \\
+ & IT & 30 & 17 \\
+ & CPU (s) & $0.0067 \pm 0.0007$ & $0.0063 \pm 0.0004$ \\
+SaLSPIA & $E_\infty$ & 3.37e-07 & 5.73e-07 \\
+ & IT & 14 & 8 \\
+ & CPU (s) & $0.0032 \pm 0.0006$ & $0.0032 \pm 0.0010$ \\
+\hline
+\end{tabular}
+\end{table}

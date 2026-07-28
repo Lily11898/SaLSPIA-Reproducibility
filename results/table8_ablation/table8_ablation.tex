@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\caption{Ablation of the spectrally adaptive weight on three curve examples.}
+\label{tab:abl_weight}
+\begin{tabular}{llccc}
+\hline
+Method & & Curve Ex.~4.2 & Curve Ex.~4.3 & Curve Ex.~4.7 \\
+& data/control & $(10001,2001)$ & $(1000,288)$ & $(206,101)$ \\
+& rank & full & full & 90 \\
+\hline
+Long endpoint $\alpha_k^{(1)}$ & $E_\infty$ & 8.38e-07 & 7.76e-07 & 4.24e-07 \\
+& IT & 4 & 24 & 21 \\
+& Halvings & 0 & 0 & 2 \\
+Short endpoint $\alpha_k^{(2)}$ & $E_\infty$ & 2.48e-07 & 9.37e-07 & 9.45e-07 \\
+& IT & 5 & 22 & 19 \\
+& Halvings & 0 & 0 & 0 \\
+SaLSPIA & $E_\infty$ & 9.15e-07 & 9.00e-07 & 9.42e-07 \\
+& IT & 4 & 22 & 17 \\
+& Halvings & 0 & 1 & 0 \\
+\hline
+\end{tabular}
+\end{table}
