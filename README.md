@@ -1,7 +1,5 @@
 # SaLSPIA: Spectrally Adaptive LSPIA for B-Spline Fitting
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21660290.svg)](https://doi.org/10.5281/zenodo.21660290)
-
 MATLAB R2021b reference implementation accompanying:
 
 > Xingxuan Peng and Yutong Li, “Spectral Adaptivity for Iterative
@@ -109,12 +107,13 @@ from this release.
 The prepared archive contains every input file needed by its formal drivers, so
 no external non-bundled data are computationally required. See
 `DATA_SOURCES.md` for provenance and redistribution notes. In particular,
-redistribution permission must be confirmed for third-party curve files before
-the public Zenodo version is published.
+redistribution permission must be confirmed before third-party curve files are
+included in any public release.
 
 ## Citation
 
-Software DOI: [10.5281/zenodo.21660290](https://doi.org/10.5281/zenodo.21660290).
+Public repository:
+[https://github.com/Lily11898/SaLSPIA-Reproducibility](https://github.com/Lily11898/SaLSPIA-Reproducibility).
 Machine-readable citation metadata are provided in `CITATION.cff`.
 
 ## License
