@@ -5,7 +5,7 @@ MATLAB R2021b reference implementation accompanying:
 > Xingxuan Peng and Yutong Li, “Spectral Adaptivity for Iterative
 > Least-Squares B-Spline Curve and Surface Fitting.”
 
-This release is synchronized with the revised manuscript. It contains the
+This repository is synchronized with the revised manuscript. It contains the
 SaLSPIA curve and tensor-product surface implementations, all comparison
 methods used in the paper (LSPIA, ALSPIA, MLSPIA, NmLSPIA, and
 LSPIA-Lin2018 where applicable), formal manuscript drivers, input data, and
@@ -100,15 +100,16 @@ results/      Representative generated CSV, LaTeX, MAT, and figure outputs
 
 Development-only scripts, unused surface-ablation code, obsolete
 table-numbering drivers, and stale result files are intentionally excluded
-from this release.
+from this repository.
 
 ## Data
 
 The prepared archive contains every input file needed by its formal drivers, so
 no external non-bundled data are computationally required. See
 `DATA_SOURCES.md` for provenance and redistribution notes. In particular,
-redistribution permission must be confirmed before third-party curve files are
-included in any public release.
+for third-party curve files whose upstream repositories do not display an
+explicit redistribution license, users should consult `DATA_SOURCES.md` and
+the upstream sources regarding their current redistribution status.
 
 ## Citation
 
