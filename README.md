@@ -1,6 +1,6 @@
 # SaLSPIA: Spectrally Adaptive LSPIA for B-Spline Fitting
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21649682.svg)](https://doi.org/10.5281/zenodo.21649682)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21660290.svg)](https://doi.org/10.5281/zenodo.21660290)
 
 MATLAB R2021b reference implementation accompanying:
 
@@ -114,7 +114,7 @@ the public Zenodo version is published.
 
 ## Citation
 
-Software DOI: [10.5281/zenodo.21649682](https://doi.org/10.5281/zenodo.21649682).
+Software DOI: [10.5281/zenodo.21660290](https://doi.org/10.5281/zenodo.21660290).
 Machine-readable citation metadata are provided in `CITATION.cff`.
 
 ## License
